@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "${modId}",
+    "name": "${modName}",
+    "description": "Adds new and interesting worldgen to work alongside GT6",
+    "version": "${modVersion}",
+    "mcversion": "${minecraftVersion}",
+    "url": "https://github.com/tesseract4d/GregCaves",
+    "updateUrl": "",
+    "authorList": [
+      "SuperCoder79",
+      "unix-supremacist",
+      "Tesseract",
+      "keletu"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

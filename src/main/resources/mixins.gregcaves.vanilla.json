@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "mods.tesseract.gregcaves.mixin",
+  "refmap": "mixins.gregcaves.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "mixins": [
+    "MixinBiome",
+    "MixinBiomeDecorator",
+    "MixinMapGenRavine",
+    "MixinWorldGenMinable",
+  ],
+  "injectors": {
+    "maxShiftBy": 10
+  },
+  "client": [
+  ]
+}
