@@ -11,7 +11,8 @@ public class MixinMapGenRavine {
 
     @ModifyConstant(
         method = "digBlock",
-        constant = @Constant(intValue = 10)
+        constant = @Constant(intValue = 10),
+        remap = false
     )
     private int modifyLavaLevel(int original) {
         return GregCaves.caveLavaLevel;
